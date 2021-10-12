@@ -20,6 +20,8 @@ body {
     justify-content: space-between;
     /* margin-top: 0;
     position: fixed; */
+    position:fixed;
+    top: 0;
 }
 .nav-list
 {
@@ -40,6 +42,7 @@ body {
     padding: 32px;
     margin: 40px auto 0 auto;
     background-color: #fff;
+    margin-top: 50px;
 }
 .form__row
 {
@@ -81,7 +84,7 @@ body {
 .feature-layout
 {
     margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     display:flex;
     justify-content: space-around;
 
@@ -127,7 +130,7 @@ body {
 /* Center Layout */
 .center-layout
 {
-    height: 250px;
+    height: 280px;
     display: flex;
     margin-left: 30% ; 
     margin-bottom: 15px;
@@ -168,6 +171,7 @@ body {
     margin: 30px 20% 30px 20%;
     display: flex;
     font-size: medium;
+    margin-bottom: 50px;
 }
 .the-end__first
 {
@@ -194,4 +198,25 @@ body {
     padding-left: 5px;
     flex:1;
     background-color: plum;
+}
+.end-bar
+{
+    width: 100%;
+    bottom: 0;
+    height: 45px;
+    background-color: orangered;
+    position:fixed;
+}
+.end-bar-list
+{
+    display: flex;
+    justify-content:end;
+    
+}
+.end-bar__item
+{
+    font-size: medium;
+    color: white;
+    list-style: none;
+    margin-right: 30px;
 }
